@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AbilityManager" Collapsed="true">
+    <Position X="30.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>WIUCASEGlCAIUoBhJIByAIAoA4gAEAgCJgyAKCAEGAE=</HashCode>
+      <FileName>Assets\Hand Rehab\Scripts\Characters\AbilityManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Attack" Collapsed="true">
+    <Position X="32" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAACAAhBAAAAgAAAAIAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Hand Rehab\Scripts\Characters\Attack.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Element" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Character" Collapsed="true">
+    <Position X="30.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAiAAAAAAAAIAAAAAAAABACgAAAhAAAAAAAA=</HashCode>
+      <FileName>Assets\Hand Rehab\Scripts\Characters\Character.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DifficultyManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Enemy" Collapsed="true">
+    <Position X="30.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgIAABADAARAAAAAAAAAACACAAAAABAAAAAAEAAAg=</HashCode>
+      <FileName>Assets\Hand Rehab\Scripts\Characters\Enemies\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyCreator" Collapsed="true">
+    <Position X="33" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgIAACAAAAAAAAAACAAAAAAAAAAADCAAAAAAQAA=</HashCode>
+      <FileName>Assets\Hand Rehab\Scripts\Characters\Enemies\EnemyCreator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Enemy" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FillStatusBar" Collapsed="true">
+    <Position X="35.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAABAAAAAAAAgAAAAAAAAAAAAAAAAAAEAAAAAEA=</HashCode>
+      <FileName>Assets\Hand Rehab\Scripts\Characters\HealthBar\FillStatusBar.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PlayerHealth" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlayerHealth" Collapsed="true">
+    <Position X="35.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIACAAAACAAAAAAAAAAAAEAAAAAQAAgAAAAAA=</HashCode>
+      <FileName>Assets\Hand Rehab\Scripts\Characters\HealthBar\PlayerHealth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharType" Collapsed="true">
+    <Position X="36.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAIAAAAAACAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Hand Rehab\Scripts\Characters\Type.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Element" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GameController" Collapsed="true">
+    <Position X="33" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBQQgCgCAjABAsAEgEYIRMEBAlAAEABJYIBqmRoEgKQ=</HashCode>
+      <FileName>Assets\Hand Rehab\Scripts\GameController\GameController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="EnemyCreator" />
+      <Property Name="AbilityManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DifficultyManager" Collapsed="true">
+    <Position X="33" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="DifficultyManager.Difficulty">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Hand Rehab\Scripts\Levels\DifficultyManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAEA=</HashCode>
+      <FileName>Assets\Hand Rehab\Scripts\Levels\DifficultyManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenu" Collapsed="true">
+    <Position X="35.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAECAAAAQBAAAAAIAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Assets\Hand Rehab\Scripts\MainMenu\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OptionsMenu" Collapsed="true">
+    <Position X="37.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAEAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Hand Rehab\Scripts\OptionsMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMovement" Collapsed="true">
+    <Position X="37.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAgAAAAAAQEAAAAAIAAAAAAAAQAIAASAAAAAAAA=</HashCode>
+      <FileName>Assets\Low Polytope Studio\Lowpoly Medieval Demos\Environment_Free\PlayerMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Element" Collapsed="true">
+    <Position X="34.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAEAAAQAAAAAAAAAAAEAAAAAAQAAAAQA=</HashCode>
+      <FileName>Assets\Hand Rehab\Scripts\Characters\Type.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
